@@ -1,6 +1,16 @@
 ## lgy-homework-210110
 ### 과제 프로젝트 :: API 개발 (Spring Boot, Gradle + Spring Security + JPA)
 
+#### 프로젝트 정보
+- PORT : 8088
+- API 
+    - 회원 가입 : /api/member, POST
+    - 회원 로그인(인증) : /api/login (Security, JWT Token방식)
+    - 회원 로그아웃 : 구현하지 않음
+    - 단일 회원 상세 정보 조회 : /api/member, GET
+    - 단일 회원의 주문 목록 조회 : /api/order/{memberIdx}, GET
+    - 여러 회원 목록 조회 : /api/member/list?page=0, GET
+
 #### DB Create SQL 
 - 소스 코드 내, docs 디렉토리 하위에 mysql_create_sql.sql 파일 포함하였습니다.
 
